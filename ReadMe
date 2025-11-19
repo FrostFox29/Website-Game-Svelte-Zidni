@@ -1,0 +1,20 @@
+# Svelte Puzzle Games - 5 Mini Frameworks
+
+Ini adalah koleksi 5 game puzzle kecil yang kompatibel dengan Svelte / SvelteKit. Setiap game adalah satu Svelte component yang mandiri sehingga bisa dipakai sebagai halaman atau komponen terpasang.
+
+Game yang disertakan:
+- 2048 clone (grid 4x4, gabung angka)
+- Sliding Puzzle (15-puzzle, ubah ubin ke posisi kosong)
+- Match-3 (swap dua ubin, cocokkan 3+)
+- Lights Out (toggle grid 5x5)
+- Minesweeper (grid sederhana dengan flag & reveal)
+
+Cara pakai cepat:
+1. Salin folder `src/lib/games/*` ke project Svelte/SvelteKit-mu.
+2. Import komponen yang mau dipakai, contoh:
+   import Game2048 from '$lib/games/2048/Game.svelte'
+3. Pasang di halaman atau routemu: <Game2048 />
+
+Ada file `src/App.svelte` contoh dengan switcher antar game. Gunakan sebagai referensi.
+
+Lisensi: MIT — pakai dan modifikasi sesukamu.
